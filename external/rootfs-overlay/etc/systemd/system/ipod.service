@@ -1,0 +1,10 @@
+[Unit]
+Description=iPod OS UI
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/cage /usr/bin/chromium --kiosk https://music.apple.com
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

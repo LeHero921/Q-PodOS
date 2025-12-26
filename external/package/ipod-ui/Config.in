@@ -1,0 +1,4 @@
+config BR2_PACKAGE_IPOD_UI
+	bool "iPod UI"
+	help
+	  Custom iPod JavaScript UI
