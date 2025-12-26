@@ -1,0 +1,3 @@
+make: Entering directory '/home/heiko/dev/ipod-os/buildroot'
+Makefile.legacy:9: *** "You have legacy configuration in your .config! Please check your configuration.".  Stop.
+make: Leaving directory '/home/heiko/dev/ipod-os/buildroot'
